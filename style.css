@@ -38,3 +38,12 @@ button {
     border: none; /* Remove button border */
     cursor: pointer; /* Set cursor to pointer on hover */
 }
+
+footer {
+    position: fixed; /* Fix footer position */
+    bottom: 10px; /* Place at bottom of page */
+    right: 20px; /* Place at right side */
+    font-size: 12px; /* Set small font size */
+    color: #999; /* Set a gray color */
+    font-family: Arial, sans-serif; /* Use Arial font */
+}
