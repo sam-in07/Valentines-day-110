@@ -84,6 +84,12 @@ function displayCatHeart() {
   catHeartImage.onload = function () {
     imageContainer.appendChild(catHeartImage);
     
+    // Add caption under the cat-heart image
+    var caption = document.createElement('div');
+    caption.id = 'image-caption';
+    caption.innerText = 'I knew it !!!!!';
+    imageContainer.appendChild(caption);
+    
     document.getElementById("options").style.display = "none";
   };
 }
